@@ -5,30 +5,11 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <div>
 
-<div id="bird">
+
   <a href="https://www.baidu.com" target="_blank">
       <img src="./assets/yaku.jpg" class="logo vue" alt="yaku" />
-    </a>
-  </div>
   <HelloWorld msg="yaku.icu 建设中" />
-</div>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.birds.min.js"></script>
-<script>
-VANTA.BIRDS({
-  el: "#bird",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
-  scale: 1.00,
-  scaleMobile: 1.00
-})
 
-
-
-    
 </template>
 
 <style scoped>
