@@ -9,7 +9,7 @@ const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ yaku.icu 建设中 }}</h1>
+  <h1>{{ msg }}</h1>
 </template>
 
 <style scoped>
