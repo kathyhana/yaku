@@ -1,5 +1,23 @@
 {
     "navigationFallback": {
         "rewrite": "/index.html"
+    } ,
+    "auth": {
+  "rolesSource": "/api/GetRoles",
+  "identityProviders": {
+    "azureActiveDirectory": {
+      "userDetailsClaim": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
+      "registration": {
+        "openIdIssuer": "https://login.microsoftonline.com/<dc7a810d-f16c-4665-bac0-ca6b7afc1315>",
+        "clientIdSettingName": "AAD_CLIENT_ID",
+        "clientSecretSettingName": "AAD_CLIENT_SECRET"
+      },
+      "login": {
+        "loginParameters": [
+          "resource=https://graph.microsoft.com"
+        ]
+      }
     }
+  }
+},
 }
