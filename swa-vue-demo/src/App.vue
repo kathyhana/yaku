@@ -3,7 +3,7 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <div>
+  <div style="width:100vw;height:100vh;">
 
     <img src="./assets/yaku.jpg" class="logo vue" alt="yaku" />
   <HelloWorld msg="yaku.icu 建设中" />
