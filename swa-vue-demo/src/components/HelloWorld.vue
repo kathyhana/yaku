@@ -1,7 +1,5 @@
 <script setup>
 import { onMounted, ref } from 'vue'
-import 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js'
-import 'https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.birds.min.js'
 
 onMounted(() => {
 console.log(VANTA)
