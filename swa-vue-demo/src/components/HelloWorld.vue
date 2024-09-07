@@ -12,15 +12,17 @@ VANTA.BIRDS({
   minWidth: 200.00,
   scale: 1.00,
   scaleMobile: 1.00,
-  backgroundColor: 0xf0f0f0,
+  backgroundColor: 0xfdfdfd,
   color1: 0x0,
-  color2: 0xef003b,
-  birdSize: 1.60,
-  wingSpan: 16.00,
-  separation: 94.00,
-  alignment: 88.00,
-  cohesion: 25.00,
-  backgroundAlpha: 0.57
+  color2: 0x8f8f8f,
+  colorMode: "lerpGradient",
+  birdSize: 1.30,
+  wingSpan: 37.00,
+  speedLimit: 10.00,
+  separation: 100.00,
+  alignment: 84.00,
+  cohesion: 64.00,
+  quantity: 3.00
 })
 
 }
