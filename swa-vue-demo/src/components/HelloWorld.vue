@@ -46,6 +46,11 @@ const count = ref(0)
 </template>
 
 <style scoped>
+*{
+margin:0px;
+padding:0px;
+border:0px;
+}
 .read-the-docs {
   color: #888;
 }
