@@ -10,6 +10,11 @@ import HelloWorld from './components/HelloWorld.vue'
 </template>
 
 <style scoped>
+*{
+margin:0px;
+padding:0px;
+border:0px;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
