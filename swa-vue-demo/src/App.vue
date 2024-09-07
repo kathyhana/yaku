@@ -5,8 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <div>
 
-  <a href="https://www.baidu.com" target="_blank">
-      <img src="./assets/yaku.jpg" class="logo vue" alt="yaku" />
+    <img src="./assets/yaku.jpg" class="logo vue" alt="yaku" />
   <HelloWorld msg="yaku.icu 建设中" />
     
 </div>
