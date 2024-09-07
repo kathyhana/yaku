@@ -16,7 +16,8 @@ VANTA.BIRDS({
   scaleMobile: 1.00
 })
 
-})
+}
+         )
 
 defineProps({
   msg: String,
