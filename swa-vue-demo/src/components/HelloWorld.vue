@@ -1,7 +1,6 @@
 <script setup>
 import { onMounted, ref } from 'vue'
-import Lottie from '@lottielab/lottie-player/web';
-/* ... */
+/* import Lottie from '@lottielab/lottie-player/web' */
 
 
 
