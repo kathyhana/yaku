@@ -1,5 +1,9 @@
 <script setup>
 import { onMounted, ref } from 'vue'
+import Lottie from '@lottielab/lottie-player/web';
+/* ... */
+
+
 
 onMounted(() => {
 console.log(VANTA)
@@ -24,6 +28,13 @@ VANTA.BIRDS({
   cohesion: 64.00,
   quantity: 3.00
 })
+
+
+const player = new Lottie();
+document.getElementById("bird").appendChild(player);
+
+  player.setAttribute("src", "https://cdn.lottielab.com/l/7UjyCk4NGXBHkg.html");
+player.play();
 
 }
          )
