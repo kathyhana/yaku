@@ -4,7 +4,7 @@ import { onMounted, ref } from 'vue'
 
 onMounted(() => {
 console.log(VANTA)
-VANTA.bird({
+VANTA.halo({
   el: "#halo",
   mouseControls: true,
   touchControls: true,
