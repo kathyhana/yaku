@@ -13,16 +13,8 @@ VANTA.bird({
   gyroControls: false,
   minHeight: 200.00,
   minWidth: 200.00
+
 })
-
-const player = new Lottie();
-document.getElementById("bird").appendChild(player);
-
-  player.setAttribute("src", "https://cdn.lottielab.com/l/7UjyCk4NGXBHkg.html");
-player.play();
-
-}
-         )
 
 defineProps({
   msg: String,
