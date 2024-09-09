@@ -7,19 +7,13 @@ import { onMounted, ref } from 'vue'
 onMounted(() => {
 console.log(VANTA)
 VANTA.bird({
-  el: "#bird",
+  el: "#halo",
   mouseControls: true,
   touchControls: true,
   gyroControls: false,
   minHeight: 200.00,
-  minWidth: 200.00,
-  baseColor: 0xffffff,
-  backgroundColor: 0x0,
-  amplitudeFactor: 0.30,
-  xOffset: -0.06,
-  yOffset: -0.10,
-  size: 0.50
-
+  minWidth: 200.00
+})
 
 const player = new Lottie();
 document.getElementById("bird").appendChild(player);
@@ -42,7 +36,7 @@ const count = ref(0)
 
 
 <template>
-<div id="bird" style="width:100vw;height:100vh">
+<div id="halo" style="width:100vw;height:100vh">
 
     <h1>{{ msg }}</h1>
 
