@@ -6,27 +6,19 @@ import { onMounted, ref } from 'vue'
 
 onMounted(() => {
 console.log(VANTA)
-VANTA.BIRDS({
+VANTA.bird({
   el: "#bird",
   mouseControls: true,
   touchControls: true,
   gyroControls: false,
   minHeight: 200.00,
   minWidth: 200.00,
-  scale: 1.00,
-  scaleMobile: 1.00,
-  backgroundColor: 0xfdfdfd,
-  color1: 0x0,
-  color2: 0x8f8f8f,
-  colorMode: "lerpGradient",
-  birdSize: 1.30,
-  wingSpan: 37.00,
-  speedLimit: 10.00,
-  separation: 100.00,
-  alignment: 84.00,
-  cohesion: 64.00,
-  quantity: 3.00
-})
+  baseColor: 0xffffff,
+  backgroundColor: 0x0,
+  amplitudeFactor: 0.30,
+  xOffset: -0.06,
+  yOffset: -0.10,
+  size: 0.50
 
 
 const player = new Lottie();
