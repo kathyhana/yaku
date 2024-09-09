@@ -4,14 +4,13 @@ import { onMounted, ref } from 'vue'
 
 onMounted(() => {
 console.log(VANTA)
-VANTA.halo({
-  el: "#halo",
+VANTA.HALO({
+  el: "#your-element-selector",
   mouseControls: true,
   touchControls: true,
   gyroControls: false,
   minHeight: 200.00,
   minWidth: 200.00
-
 })
 })
 
