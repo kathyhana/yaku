@@ -2,8 +2,6 @@
 import { onMounted, ref } from 'vue'
 /* import Lottie from '@lottielab/lottie-player/web' */
 
-
-
 onMounted(() => {
 console.log(VANTA)
 VANTA.bird({
@@ -15,14 +13,13 @@ VANTA.bird({
   minWidth: 200.00
 
 })
+})
 
 defineProps({
   msg: String,
 })
 
 const count = ref(0)
-
-
 
 </script>
 
