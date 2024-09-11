@@ -31,7 +31,7 @@ const count = ref(0)
 
 
 <template>
-<div id="halo" style="width:100vw;height:100vh">
+<div style="width:100vw;height:100vh">
 
     <h1>{{ msg }}</h1>
 
@@ -46,5 +46,23 @@ border:0px;
 }
 .read-the-docs {
   color: #888;
+}
+body, html {
+  padding: 0;
+  margin:  0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: rgba(241, 226, 215, 0.2);
+  position: relative;
+  // background: #FC2D79;
+  background: #28143F;
+}
+
+.close-button {
+  cursor: pointer;
 }
 </style>
