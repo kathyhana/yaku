@@ -27,6 +27,25 @@ defineProps({
 
 const count = ref(0)
 
+  delay:        .4*DURATION,
+  isShowStart:  true
+});
+
+const closeTimeline = new mojs.Timeline();
+closeTimeline
+  .add(
+    closeX, closeCircle,
+    fadeTimeline
+);
+
+openTimeline.replay();
+circle.el.addEventListener( 'click', function () {
+  circle._hide();
+  openTimeline.stop();
+  closeTimeline.replay();
+  openBackground.replayBackward();
+});
+
 </script>
 
 
