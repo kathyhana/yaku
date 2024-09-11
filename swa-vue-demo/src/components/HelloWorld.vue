@@ -4,7 +4,7 @@ import { onMounted, ref } from 'vue'
 
 onMounted(() => {
 console.log(VANTA)
-
+/*
 VANTA.DOTS({
   el: "#halo",
   mouseControls: true,
@@ -20,7 +20,7 @@ VANTA.DOTS({
   size: 6.10
 })
 })
-
+*/
 defineProps({
   msg: String,
 })
