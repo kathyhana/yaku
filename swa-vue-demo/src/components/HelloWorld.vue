@@ -5,7 +5,7 @@ import { onMounted, ref } from 'vue'
 onMounted(() => {
 console.log(VANTA)
 
-VANTA.GLOBE({
+VANTA.DOTS({
   el: "#halo",
   mouseControls: true,
   touchControls: true,
@@ -14,8 +14,10 @@ VANTA.GLOBE({
   minWidth: 200.00,
   scale: 1.00,
   scaleMobile: 1.00,
-  color: 0x2e2e16,
-  backgroundColor: 0xe5e1ed
+  color: 0xb60b4a,
+  color2: 0xffffff,
+  backgroundColor: 0x151415,
+  size: 6.10
 })
 })
 
