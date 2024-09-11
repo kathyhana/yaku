@@ -19,8 +19,9 @@ VANTA.DOTS({
   backgroundColor: 0x151415,
   size: 6.10
 })
-})
 */
+})
+
 defineProps({
   msg: String,
 })
